@@ -76,7 +76,7 @@ body {
 }
 
 .subtext {
-  @apply text-neutral-100 text-sm md:text-base text-pretty;
+  @apply text-neutral-200 text-sm md:text-base text-pretty;
 }
 
 /* Navigation */
@@ -147,6 +147,23 @@ body {
     }
     100% {
       transform: translateY(0);
+    }
+  }
+}
+
+
+@theme inline {
+  --animate-orbit: orbit calc(var(--duration) * 1s) linear infinite;
+ 
+  @keyframes orbit {
+    0% {
+      transform: rotate(calc(var(--angle) * 1deg))
+        translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg));
+    }
+    100% {
+      transform: rotate(calc(var(--angle) * 1deg + 360deg))
+        translateY(calc(var(--radius) * 1px))
+        rotate(calc((var(--angle) * -1deg) - 360deg));
     }
   }
 }
