@@ -79,7 +79,9 @@ const About = () => {
           <div className='z-10 w-[50%]'>
             <p className='headtext'>Tech Stack I use</p>
             <p className='subtext text-neutral-600'>
-              I am very proficient in C++, Java and Python. I am well versed in the knowledge of effective usage of data structures and algorithms. I am also exprienced in cloud technologies like Amazon Web Services 
+              I am very proficient in C++, Java and Python. I am well versed in the knowledge of effective 
+              usage of data structures and algorithms. I am also an exprienced
+              AWS Architect
             </p>
           </div>
           <div className='absolute w-full h-full left-[50%] items-center scale-125'>
@@ -104,11 +106,12 @@ const About = () => {
 
 
 
-        <div className='flex items-start grid-special-color grid-4'>
+        <div className='flex items-start grid-special2-color grid-4'>
            <div className='flex flex-col items-center justify-center gap-4 size-full'>
                 <p className='text-center headtext'>
-                  Interested in Collaborating on a project?
+                  Interested in Collaborating on a project? <br/>Mail Me!
                 </p>
+                
                 <CopyEmailBut />
 
            </div>

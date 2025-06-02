@@ -7,7 +7,7 @@ export function FrameWorks() {
     "java",
     "python",
     "cplusplus",
-    "vite.js",
+    "vitejs",
     "react",
     "css3",
     "git",

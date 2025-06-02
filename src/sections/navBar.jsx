@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { AnimatePresence, motion } from 'motion/react';
 function Navigation(){
     return (
     <ul className="nav-ul">
@@ -23,9 +23,14 @@ function Navigation(){
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-    <div className='fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40'>
-        <div className='mx-auto c-space max-w-7xl'>
-            <div className='flex items-center justify-between py-2 sm:py-2'>
+    <AnimatePresence mode='wait'>
+    <motion.div className={`fixed  z-20 w-full ${isOpen?'h-full' : ''} backdrop-blur-lg bg-primary/40 flex flex-col `}
+        
+        animate={{height:isOpen ? "100vh " : "auto"}}
+        transition={{duration : 0.5}}
+    >
+        <div className='mx-auto c-space max-w-7xl top-5'>
+            <div className='flex items-center justify-between py-2 sm:py-2 '>
             
                 <a href="/" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">
                 VGM
@@ -41,21 +46,26 @@ const NavBar = () => {
 
             </div>            
         </div>
-
+        <AnimatePresence mode='wait'>
         {isOpen && (
             <motion.div 
-                className='block overflow-hidden text-center md:hidden'
+                className='absolute w-full left-0 h-full top-[5%] overflow-hidden text-center md:hidden'
                 initial={{ opacity: 0, y:-25}}
                 animate={{opacity: 1, y:0 }}
+                exit={{opacity:0, y:-25}}
                 style = {{ maxHeight: " 180vh"}}
                 transition={{duration : 0.5}}
             >
-            <nav className='pb-5'>
+            <nav className='pb-5 '>
                 <Navigation/>
             </nav>
             </motion.div>
+
         )}
-    </div>
+        </AnimatePresence>
+    </motion.div>
+    </AnimatePresence>
+    
 );
  
 }
