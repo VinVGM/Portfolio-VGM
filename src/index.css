@@ -114,15 +114,15 @@ body {
 }
 
 .grid-default-color {
-  @apply p-6 bg-gradient-to-r from-storm to-royal rounded-2xl;
+  @apply p-6 bg-linear-to-r from-gray-800 via-blue-700 to-gray-900 rounded-2xl;
 }
 
 .grid-special-color {
-  @apply p-6 bg-gradient-to-l from-lavender to-navy rounded-2xl;
+  @apply p-6 bg-gradient-to-bl from-purple-500 via-violet-600 to-indigo-800 rounded-2xl;
 }
 
 .grid-special2-color {
-  @apply p-6 bg-gradient-to-r from-royal to-navy rounded-2xl;
+  @apply p-6 bg-gradient-to-b bg-gradient-to-b from-purple-800 via-zinc-400 to-indigo-500 rounded-2xl;
 }
 
 .grid-black-color {
