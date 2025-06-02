@@ -52,7 +52,7 @@ const About = () => {
     <h2 className='text-heading'> About me</h2>
     <div className='grid grid-cols-1 gap-2 mt-12 md:grid-cols-6 md:auto-rows-[18rem]'>
         <div className='flex items-end grid-default-color grid-1'>
-            <img src='./src/assets/plane.png' className='absolute scale-[2] -top-[25.1rem] left-14 md:scale-[3] 
+            <img src='/images/assets/plane.png' className='absolute scale-[2] -top-[25.1rem] left-14 md:scale-[3] 
              md:-top-20 brightness-50'></img>
             <div className='z-10'>
                 <p className='headtext'> Hi I am Vineeth V</p>
@@ -67,12 +67,12 @@ const About = () => {
                 <Card text="Cloud Ops" style = {{rotate: "20deg", top: "65%", left: "45%"}} containerRef={grid5container}/>
                 <Card text="Gen AI" style = {{rotate: "45deg", top: "30%", left: "50%"}}  containerRef={grid5container}/>
                 <Card text="OOPS" style = {{rotate: "-45deg", top: "60%", left: "70%"}}  containerRef={grid5container}/>
-                <Card image="./src/assets/cplusplus.svg" style = {{rotate: "-60deg", top: "20%", left: "42%"}}  containerRef={grid5container}/>
-                <Card image="./src/assets/python.webp" style = {{rotate: "-30deg", top: "60%", left: "10%"}}  containerRef={grid5container}/>
-                <Card image="./src/assets/aws.png" style = {{rotate: "-40deg", top: "20%", left: "70%"}}  containerRef={grid5container}/>
-                <Card image="./src/assets/java.png" style = {{rotate: "-40deg", top: "60%", left: "35%"}}  containerRef={grid5container}/>
-                <Card image="./src/assets/logos/react.svg" style = {{rotate: "-40deg", top: "20%", left: "5%"}}  containerRef={grid5container}/>
-                <Card image="./src/assets/logos/microsoft.svg" style = {{rotate: "-40deg", top: "30%", left: "20%"}}  containerRef={grid5container}/>
+                <Card image="/images/assets/cplusplus.svg" style = {{rotate: "-60deg", top: "20%", left: "42%"}}  containerRef={grid5container}/>
+                <Card image="/images/assets/python.webp" style = {{rotate: "-30deg", top: "60%", left: "10%"}}  containerRef={grid5container}/>
+                <Card image="/images/assets/aws.png" style = {{rotate: "-40deg", top: "20%", left: "70%"}}  containerRef={grid5container}/>
+                <Card image="/images/assets/java.png" style = {{rotate: "-40deg", top: "60%", left: "35%"}}  containerRef={grid5container}/>
+                <Card image="/images/assets/logos/react.svg" style = {{rotate: "-40deg", top: "20%", left: "5%"}}  containerRef={grid5container}/>
+                <Card image="/images/assets/logos/microsoft.svg" style = {{rotate: "-40deg", top: "30%", left: "20%"}}  containerRef={grid5container}/>
             </div>
         </div>
         <div className='flex flex-col grid-special-color grid-3'>

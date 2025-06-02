@@ -29,7 +29,7 @@ const CopyEmailBut = () => {
                     exit={{opacity:0, y:-10}}
                     transition={{duration:'0.1', ease:"easeInOut"}}
             >
-            <img src='./src/assets/copy-done.svg' className='w-5'/>
+            <img src='/images/assets/copy-done.svg' className='w-5'/>
             Copied 
             </motion.p></div>) : 
             (<motion.p className='flex items-center justify-center gap-2'
@@ -38,7 +38,7 @@ const CopyEmailBut = () => {
                         animate={{opacity:1, y : 0}}
                         exit={{opacity:0, y : -10}}
                         transition={{duration:0.1, ease:"easeInOut"}}>
-                        <img src="./src/assets/copy.svg" alt='copy-button' className='w-5'/>
+                        <img src="/images/assets/copy.svg" alt='copy-button' className='w-5'/>
                 
                         Copy Email Address
             </motion.p>)}

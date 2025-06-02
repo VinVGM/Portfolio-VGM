@@ -26,13 +26,13 @@ export function FrameWorks() {
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
       <OrbitingCircles iconSize={40}>
         {skills.map((skill,index) => (
-          <Icon key={index} src={`./src/assets/logos/${skill}.svg`} />
+          <Icon key={index} src={`/images/assets/logos/${skill}.svg`} />
           
         ))}
       </OrbitingCircles>
       <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
         {skills.map((skill,index) => (
-          <Icon key={index} src={`./src/assets/logos/${skill}.svg`} />
+          <Icon key={index} src={`/images/assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
     </div>
