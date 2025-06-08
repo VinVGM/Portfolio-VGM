@@ -8,7 +8,7 @@ const HeroText = () => {
     visible:{ opacity: 1, y: 0 }
   };
   return (
-    <div className='z-10 scale-110 md:scale-150 text-center ms:text-left rounded-3xl bg-clip-text'>
+    <div className='z-10 scale-110 md:scale-100 text-center ms:text-left rounded-3xl bg-clip-text'>
     
         <div className='flex-col hidden md:flex c-space text-left'>
             
