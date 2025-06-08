@@ -3,6 +3,7 @@ import { useSpring } from 'motion/react'
 import { motion, useMotionValue } from 'motion/react'
 import Project from '../componenets/Project'
 import { myProjects } from '../constants'
+import { isMobile } from 'react-device-detect'
 const Projects = () => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -20,7 +21,7 @@ const Projects = () => {
     </div>
     {myProjects.map((project)=>(
       <Project key={project.id} {...project} setPreview={setPreview}/>))}
-    {preview && <motion.img 
+    {preview && !isMobile && <motion.img 
     style={{x:springX, y:springY}}
     src={preview}
     className='fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80'/>
