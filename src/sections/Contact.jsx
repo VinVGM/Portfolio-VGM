@@ -67,7 +67,7 @@ const handleSubmit = async (e) => {
         <AnimatePresence>
         {showAlert && <Alert type={alertType} text={alertMessage}/>}
         </AnimatePresence>
-        <div className='flex flex-col items-center justfiy-center border max-w-120 mx-auto border-white/10 bg-primary rounded-2xl p-5 z-10'>
+        <div className='flex flex-col items-center justfiy-center border max-w-sm mx-auto border-white/10 bg-primary rounded-2xl p-5 z-10'>
             
             <div className='flex flex-col items-start gap-2 mt-5 mb-5'>
             <h2 className='text-heading'>Contact Me</h2>
