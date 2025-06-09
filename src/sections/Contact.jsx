@@ -3,7 +3,8 @@ import { useState } from 'react';
 import emailjs from "@emailjs/browser"
 import Alert from '../componenets/Alert';
 import { AnimatePresence } from 'motion/react';
-import { WavyBackground } from '../componenets/wavy-background';
+import { AuroraBackground } from '../componenets/aurora-background';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -62,8 +63,10 @@ const handleSubmit = async (e) => {
 
 }
   return (
-    <section id='contact' className='relative flex items-center  section-spacing'>
-        <WavyBackground className="absolute  -z-50"/>
+    <section id='contact' className='relative flex items-center section-spacing'>
+        <div className='absolute inset-0'>
+            <AuroraBackground/>
+        </div>
         <AnimatePresence>
         {showAlert && <Alert type={alertType} text={alertMessage}/>}
         </AnimatePresence>

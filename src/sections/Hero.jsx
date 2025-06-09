@@ -11,7 +11,7 @@ const Hero = () => {
     <section id='home' className='flex items-center justify-center min-h-screen overflow-hidden md:items-center md:justify-center  '>
     <HeroText />
     <div className='absolute inset-0'>
-    <BackgroundGradientAnimation></BackgroundGradientAnimation>
+    <BackgroundGradientAnimation/>
     </div>
     </section>
    
