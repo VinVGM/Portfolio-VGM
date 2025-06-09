@@ -48,11 +48,11 @@ function IconCloudDemo() {
 
 const About = () => {
   const grid5container = useRef();
-  return <section className='c-space section-spacing'>
+  return <section id='about' className='c-space section-spacing'>
     <h2 className='text-heading'> About me</h2>
     <div className='grid grid-cols-1 gap-2 mt-12 md:grid-cols-6 md:auto-rows-[18rem]'>
         <div className='flex items-end grid-default-color grid-1'>
-            <img src='/images/assets/plane.png' className='absolute scale-[2] -top-[25.1rem] left-14 md:scale-[3] 
+            <img src='/images/assets/plane.png' className='absolute scale-[4] -top-[25.1rem] left-14 md:scale-[3] 
              md:-top-20 brightness-50'></img>
             <div className='z-10'>
                 <p className='headtext'> Hi I am Vineeth V</p>

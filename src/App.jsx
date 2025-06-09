@@ -3,7 +3,8 @@ import NavBar from "./sections/navBar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
-
+import Contact from "./sections/Contact"
+import Footer from "./sections/Footer"
 const App = () => {
   return (
   <div className="container max-w-full">
@@ -11,12 +12,8 @@ const App = () => {
     <Hero />
     <About />
     <Projects />
-    <section className="min-h-screen"></section>
-    <section className="min-h-screen"></section>
-    <section className="min-h-screen"></section>
-
-    <section className="min-h-screen"></section>
-
+    <Contact />
+    <Footer />
 
   </div>
   
