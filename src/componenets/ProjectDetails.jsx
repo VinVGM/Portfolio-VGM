@@ -18,9 +18,14 @@ const ProjectDetails = ({title, description, subDescription, href, image, tags, 
             <div className='p-5'>
                 <h5 className='font-bold text-4xl mb-5'>{title}</h5>
                 <p className=' mb-5 font-normal text-neutral-400'>{description}</p>
-                {subDescription.map((subDesc, index)=> (
-                    <p className=' font-normal text-neutral-400'>{subDesc}</p>
-                ))}
+                {subDescription.map((subDesc, index) => (
+                <p
+                    key={index}
+                    className="font-normal text-neutral-400"
+                    dangerouslySetInnerHTML={{ __html: subDesc }}
+                />
+            ))}
+
             </div>
             <div className='flex ml-5 mb-5 mr-5 justify-between'>
                 <div className='flex gap-5'>

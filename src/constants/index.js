@@ -37,22 +37,59 @@ export const myProjects = [
       {
         id: 5,
         name: "Magic UI",
-        path: "/images/assets/logos/magiui.png", // Add manually if needed
+        path: "/images/assets/logos/magiui.png",
       },
       {
         id: 6,
         name: "Aceternity UI",
-        path: "/images/assets/logos/ace.png", // Add manually if needed
+        path: "/images/assets/logos/ace.png",
       },
       {
         id: 7,
         name: "EmailJS",
-        path: "/images/assets/logos/emaljs.png", // Add manually if needed
+        path: "/images/assets/logos/emaljs.png",
       },
     ],
   },
   {
     id: 2,
+    title: "Snake Game on 8051 and Arduino",
+    description:
+      "Implemented the classic Snake Game using an 8051 microcontroller and later migrated it to Arduino after hardware failure.",
+    subDescription: [
+        "Used an 8x8 LED matrix to render the snake and a 16x2 LCD to display the score.",
+        "Implemented basic movement logic, collision detection, and scoring using embedded C.",
+        "Fried the 8051 board during debugging and ported the entire game logic to Arduino successfully.",
+        "Improved game control responsiveness and debugging capabilities using Arduino libraries.",
+        "<a href='https://www.youtube.com/watch?v=MIV8ZxHaUl8&t=402s' target='_blank' rel='noopener noreferrer' class='text-blue-500 underline'>Watch Demo Video</a>",
+      ],
+
+
+    href: "",
+    logo: "",
+    image: "/images/8051.png", // Update with actual image if available
+    tags: [
+  {
+    id: 1,
+    name: "8051 + Keil IDE",
+    path: "/images/assets/logos/keil.svg", // This image now includes Keil IDE
+  },
+  {
+    id: 2,
+    name: "Arduino",
+    path: "/images/assets/logos/Arduino.svg",
+  },
+  {
+    id: 3,
+    name: "Embedded C",
+    path: "/images/assets/logos/embC.svg",
+  },
+  
+],
+
+  },
+  {
+    id: 3,
     title: "College Course Recommendation System",
     description:
       "A Streamlit-based application that recommends engineering courses based on subject keywords.",
@@ -79,17 +116,17 @@ export const myProjects = [
       {
         id: 3,
         name: "KeyBert",
-        path: "/images/assets/logos/gen.svg", 
+        path: "/images/assets/logos/gen.svg",
       },
       {
         id: 4,
         name: "NeatText",
-        path: "/images/assets/logos/gen.svg", // Add manually if needed
+        path: "/images/assets/logos/gen.svg",
       },
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Face Recognition Attendance System",
     description:
       "A face recognition-based attendance tracking system built with Streamlit and OpenCV.",
@@ -121,6 +158,3 @@ export const myProjects = [
     ],
   },
 ];
-
-
-
