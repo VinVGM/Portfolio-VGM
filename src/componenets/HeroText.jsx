@@ -1,7 +1,7 @@
 import React from 'react'
 import { FlipWords } from './FlipWords'
 import { motion } from 'motion/react'
-import { ContainerTextFlip } from './text-flip'
+
 const HeroText = () => {
   const variants = {
     hidden: { opacity: 0, y:-50},
@@ -33,7 +33,7 @@ const HeroText = () => {
                     animate="visible"
                     transition={{ duration: 0.5, ease: "easeOut", delay: 0.7 }}
                     >
-                    <ContainerTextFlip/>
+                    <FlipWords words={["Cloud", "ML", "Electronic", "Web"]}/>
                 </motion.div>
                 <motion.p className='text-4xl'
                     variants={variants}
