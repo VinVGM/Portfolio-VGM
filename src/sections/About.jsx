@@ -49,7 +49,7 @@ function IconCloudDemo() {
 const About = () => {
   const grid5container = useRef();
   return <section id='about' className='c-space section-spacing'>
-    <h2 className='text-heading'> About me</h2>
+    <h2 className='pt-20 text-heading'> About me</h2>
     <div className='grid grid-cols-1 gap-2 mt-12 md:grid-cols-6 md:auto-rows-[18rem]'>
         <div className='flex items-end grid-default-color grid-1'>
             <img src='/images/assets/plane.png' className='absolute scale-[4] -top-[25.1rem] left-14 md:scale-[3] 

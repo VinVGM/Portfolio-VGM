@@ -15,17 +15,19 @@ const Projects = () => {
   };
 
   const [preview, setPreview] = useState(null);
-  return (<section id='work' onMouseMove={handleMouseMove} className='relative c-space section-spacing'>
-    <h2 className='text-heading'> My projects</h2>
-    <div className='bg-gradient-to-r from-transparent via-violet-700 to-transparent mt-12 h-[5px] w-full'>
-    </div>
+  return (<section id='work' onMouseMove={handleMouseMove} className='relative c-space  section-spacing'>
+    <h2 className='text-heading pt-20'> My projects</h2>
+    <div className='grid  grid-cols-6 auto-rows-[18rem] '>
+    
     {myProjects.map((project)=>(
-      <Project key={project.id} {...project} setPreview={setPreview}/>))}
+      
+      <Project key={project.id} {...project} setPreview={setPreview} className=""/>))}
     {preview && !isMobile && <motion.img 
     style={{x:springX, y:springY}}
     src={preview}
     className='fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80'/>
     }
+    </div>
   </section>)
    
   

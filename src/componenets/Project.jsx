@@ -8,13 +8,16 @@ const Projects = ({title,description, subDescription,href, image, tags, setPrevi
 
   return (
     <>
-    <div className='flex-wrap items-center py-10 justify-between space-y-14 sm:flex sm:space-y-0'
+    <div className='flex flex-wrap gap-5 row-span-2 col-span-3'>
+    <div className='bg-gradient-to-r from-transparent via-violet-700 to-transparent mt-12 h-[5px] w-full'>
+        </div>
+    <div className='flex-col start py-10 justify-between space-y-14 sm:flex sm:space-y-0 h-[16rem]'
          onMouseEnter={() => setPreview(image)}
          onMouseLeave={() => setPreview(null)}
     >
       <div>
         <p className='text-2xl'>{title}</p>
-        <div className='flex flex-wrap gap-5 mt-2 text-sand'>
+        <div className='flex flex-wrap gap-5 mt-2  text-sand'>
             {tags.map((tag) => (
               <span key={tag.id}>{tag.name}</span>
             ))}
@@ -40,6 +43,7 @@ const Projects = ({title,description, subDescription,href, image, tags, setPrevi
     />
     }
     </AnimatePresence>
+    </div>
     </>
   )
 }
