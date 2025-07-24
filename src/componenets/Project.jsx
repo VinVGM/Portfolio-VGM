@@ -16,8 +16,9 @@ const Project = ({title, description, subDescription, href, image, tags, setPrev
           src={image}
           alt={title}
           loading="lazy"
-          className="rounded-lg shadow-lg max-w-xs md:max-w-full h-64 object-cover"
-        
+          className="rounded-lg shadow-lg w-full max-w-xs h-64 object-cover mx-auto"
+          onMouseEnter={() => setPreview(image)}
+          onMouseLeave={() => setPreview(null)}
         />
       </div>
       {/* Details */}
