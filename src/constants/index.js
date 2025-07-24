@@ -85,7 +85,51 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+  id: 2,
+  title: "Expense Tracker",
+  description:
+    "A full-stack web application for managing and tracking personal expenses with secure authentication and real-time updates.",
+  subDescription: [
+    "Enables users to add, edit, and delete expenses, categorizing them for better financial organization and insights.",
+    "Features user authentication and authorization, ensuring that each user's data is private and securely stored.",
+    "Offers a responsive ReactJS interface with instant updates and visual feedback as expenses are managed.",
+    "Integrates with MongoDB for persistent data storage and provides RESTful APIs via an Express.js backend.",
+    "Technologies Used: ReactJS, Node.js, Express.js, MongoDB, JWT Authentication",
+  ],
+  href: "", // Add live link if available
+  logo: "",
+  image: "/images/Expenses.png", // Update with actual image path
+  tags: [
+    {
+      id: 1,
+      name: "React",
+      path: "/images/assets/logos/react.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "/images/assets/logos/nodejs.svg",
+    },
+    {
+      id: 3,
+      name: "Express.js",
+      path: "/images/assets/logos/Express.svg",
+    },
+    {
+      id: 4,
+      name: "MongoDB",
+      path: "/images/assets/logos/MongoDB.svg",
+    },
+    {
+      id: 5,
+      name: "JWT",
+      path: "/images/assets/logos/jwt.svg",
+    },
+  ],
+},
+
+  {
+    id: 4,
     title: "Personal Portfolio Website",
     description:
       "A sleek and responsive portfolio website built using modern frontend tools to showcase projects and skills.",
@@ -137,7 +181,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Face Recognition Attendance System",
     description:
       "A face recognition-based attendance tracking system built with Streamlit and OpenCV.",
