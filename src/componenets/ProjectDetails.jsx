@@ -14,7 +14,7 @@ const ProjectDetails = ({title, description, subDescription, href, image, tags, 
             <button onClick={closeModel} className='absolute p-2 rounded-2xl p-3 top-5 right-5 bg-midnight hover:bg-gray-500'>
             <img className='w-5 h-5 invert' src='/images/assets/close.png' loading="lazy"/>    
             </button>
-            <img src={image} alt={title} loading="lazy" className='w-full rounded-t-2xl'/>
+            <img src={image} alt={title} loading="lazy" className='w-full h-auto object-cover rounded-t-2xl'/>
             <div className='p-5'>
                 <h5 className='font-bold text-4xl mb-5'>{title}</h5>
                 <p className=' mb-5 font-normal text-neutral-400'>{description}</p>
