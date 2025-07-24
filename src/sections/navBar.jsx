@@ -37,7 +37,7 @@ const NavBar = () => {
                 </a>
 
                 <button onClick={() => setIsOpen(!isOpen)} className='flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden'>
-                    <img src= {isOpen? "/images/assets/close.png" : "/images/assets/menu.png"} className='w-6 h-6 filter invert' alt="toggle"/>
+                    <img src= {isOpen? "/images/assets/close.png" : "/images/assets/menu.png"} className='w-6 h-6 filter invert' alt="toggle" loading="lazy"/>
                 </button>
 
                 <nav className="hidden sm:flex">

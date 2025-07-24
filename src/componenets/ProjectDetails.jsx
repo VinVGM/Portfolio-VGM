@@ -9,12 +9,12 @@ const ProjectDetails = ({title, description, subDescription, href, image, tags, 
             initial ={{opacity:0, scale:0}}
             animate={{opacity:2, scale:1}}
             transition={{duration:0.5}}
-            exit={{opacity:0, scale:-2}}
+            exit={{opacity:0, scale:0}}
         >
             <button onClick={closeModel} className='absolute p-2 rounded-2xl p-3 top-5 right-5 bg-midnight hover:bg-gray-500'>
-            <img className='w-5 h-5 invert' src='/images/assets/close.png'/>    
+            <img className='w-5 h-5 invert' src='/images/assets/close.png' loading="lazy"/>    
             </button>
-            <img src={image} alt={title} className='w-full rounded-t-2xl'/>
+            <img src={image} alt={title} loading="lazy" className='w-full rounded-t-2xl'/>
             <div className='p-5'>
                 <h5 className='font-bold text-4xl mb-5'>{title}</h5>
                 <p className=' mb-5 font-normal text-neutral-400'>{description}</p>
@@ -34,12 +34,13 @@ const ProjectDetails = ({title, description, subDescription, href, image, tags, 
                         key={tag.id}
                         src={tag.path}
                         alt={tag.name}
+                        loading="lazy"
                         className='rounded-lg size-10 hover-animation '
                     />
                 ))}
                 </div>
                 <div className=''>
-                    <a href={href} className='flex items-center justify-center gap-2 hover-animation cursor-pointer'>View Project <img src='/images/assets/arrow-up.svg'/></a>
+                    <a href={href} className='flex items-center justify-center gap-2 hover-animation cursor-pointer'>View Project <img src='/images/assets/arrow-up.svg' loading="lazy"/></a>
                 </div>
             </div>
         </motion.div>

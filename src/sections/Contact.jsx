@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser"
 import Alert from '../componenets/Alert';
 import { AnimatePresence } from 'motion/react';
 import { AuroraBackground } from '../componenets/aurora-background';
+import { isMobile } from 'react-device-detect';
 
 
 const Contact = () => {
@@ -65,7 +66,9 @@ const handleSubmit = async (e) => {
   return (
     <section id='contact' className='relative flex items-center section-spacing'>
         <div className='absolute inset-0'>
-            <AuroraBackground/>
+            {isMobile
+              ? <div className="bg-gradient-to-br from-indigo-900 to-purple-900 w-full h-full" />
+              : <AuroraBackground />}
         </div>
         <AnimatePresence>
         {showAlert && <Alert type={alertType} text={alertMessage}/>}

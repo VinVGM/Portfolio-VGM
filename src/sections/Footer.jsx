@@ -10,7 +10,7 @@ const Footer = () => {
                 <p>Vineeth V</p>
             </div>
         
-            <img className='w-5' src='/images/assets/logos/linkedin.svg'></img>
+            <img className='w-5' src='/images/assets/logos/linkedin.svg' loading="lazy"></img>
             
         </div>
             
