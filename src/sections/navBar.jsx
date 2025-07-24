@@ -1,27 +1,31 @@
 import React from 'react'
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-function Navigation(){
+
+
+
+const NavBar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    function Navigation(){
     return (
     <ul className="nav-ul">
         <li className='nav-li'>
-            <a className='nav-link' href='#home'>Home</a>
+            <a className='nav-link' onClick={() => setIsOpen(!isOpen)} href='#home'>Home</a>
         </li>
         <li className='nav-li'>
-            <a className='nav-link' href='#about'>About</a>
+            <a className='nav-link' onClick={() => setIsOpen(!isOpen)} href='#about'>About</a>
         </li>
         <li className='nav-li'>
-            <a className='nav-link' href='#work'>Work</a>
+            <a className='nav-link' onClick={() => setIsOpen(!isOpen)} href='#work'>Work</a>
         </li>
         <li className='nav-li'>
-            <a className='nav-link' href='#contact'>Contact</a>
+            <a className='nav-link' onClick={() => setIsOpen(!isOpen)}  href='#contact'>Contact</a>
         </li>
         
     </ul>
     )
-}
-const NavBar = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    }
     return (
     <AnimatePresence mode='wait'>
     <motion.div className={`fixed  z-20 w-full ${isOpen?'h-full' : ''} backdrop-blur-lg bg-primary/40 flex flex-col `}
