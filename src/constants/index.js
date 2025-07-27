@@ -11,7 +11,7 @@ export const myProjects = [
       "Implements live score tracking and provides immediate feedback to users on correct or incorrect answer selections, enhancing engagement and learning outcomes.",
       "Technologies Used: ReactJS, Tailwind CSS, Vite, Python, Flask, IBM Cloud",
     ],
-    href: "", // Add live link if available
+    href: "https://github.com/VinVGM/Quiz-Maker-GenAI", // Add live link if available
     logo: "",
     image: "/images/quiz.png", // Add correct image path
     tags: [
@@ -58,7 +58,7 @@ export const myProjects = [
       "Enabled students to submit supplementary materials like notes and links.",
       "Integrated NeatText for cleaning and preprocessing subject descriptions.",
     ],
-    href: "",
+    href: "https://github.com/VinVGM/College-Course-Recommendation-System",
     logo: "",
     image: "/images/clg-proj.png",
     tags: [
@@ -96,7 +96,7 @@ export const myProjects = [
     "Integrates with MongoDB for persistent data storage and provides RESTful APIs via an Express.js backend.",
     "Technologies Used: ReactJS, Node.js, Express.js, MongoDB, JWT Authentication",
   ],
-  href: "", // Add live link if available
+  href: "https://github.com/VinVGM/Expenses-Tracker", // Add live link if available
   logo: "",
   image: "/images/Expenses.png", // Update with actual image path
   tags: [
@@ -139,7 +139,7 @@ export const myProjects = [
       "Used EmailJS for enabling contact form submissions without a backend.",
       "Deployed and optimized for performance across devices and screen sizes.",
     ],
-    href: "", // Add your live portfolio URL if available
+    href: "https://github.com/VinVGM/Portfolio-VGM", // Add your live portfolio URL if available
     logo: "",
     image: "/images/portfolio.png",
     tags: [
@@ -191,7 +191,7 @@ export const myProjects = [
       "Automatically logged attendance with timestamps in a spreadsheet.",
       "Designed a simple and intuitive frontend using Streamlit for faculty use.",
     ],
-    href: "",
+    href: "https://github.com/VinVGM/Face-Recognition-Attendance-System",
     logo: "",
     image: "/images/face_reg.PNG",
     tags: [
