@@ -11,16 +11,19 @@ const NavBar = () => {
     return (
     <ul className="nav-ul">
         <li className='nav-li'>
-            <a className='nav-link' onClick={() => setIsOpen(!isOpen)} href='#home'>Home</a>
+            <a className='nav-link' onClick={() => isOpen && setIsOpen(false)} href='#home'>Home</a>
         </li>
         <li className='nav-li'>
-            <a className='nav-link' onClick={() => setIsOpen(!isOpen)} href='#about'>About</a>
+            <a className='nav-link' onClick={() => isOpen && setIsOpen(false)} href='#about'>About</a>
         </li>
         <li className='nav-li'>
-            <a className='nav-link' onClick={() => setIsOpen(!isOpen)} href='#work'>Work</a>
+            <a className='nav-link' onClick={() => isOpen && setIsOpen(false)} href='#work'>Work</a>
         </li>
         <li className='nav-li'>
-            <a className='nav-link' onClick={() => setIsOpen(!isOpen)}  href='#contact'>Contact</a>
+            <a className='nav-link' onClick={() => isOpen && setIsOpen(!isOpen)}  href='#resume'>Resume</a>
+        </li>
+        <li className='nav-li'>
+            <a className='nav-link' onClick={() => isOpen && setIsOpen(!isOpen)}  href='#contact'>Contact</a>
         </li>
         
     </ul>

@@ -9,8 +9,9 @@ const Footer = () => {
             <div className='flex'>
                 <p>Vineeth V</p>
             </div>
-        
+            <a href='https://www.linkedin.com/in/vineethvgm'>
             <img className='w-5' src='/images/assets/logos/linkedin.svg' loading="lazy"></img>
+            </a>
             
         </div>
             

@@ -64,11 +64,11 @@ const handleSubmit = async (e) => {
 
 }
   return (
-    <section id='contact' className='relative flex items-center section-spacing'>
+    <section id='contact' className='relative flex min-h-screen items-center pt-20'>
         <div className='absolute inset-0'>
             {isMobile
               ? <div className="bg-gradient-to-br from-indigo-900 to-purple-900 w-full h-full" />
-              : <AuroraBackground />}
+              : <div className=''><AuroraBackground /></div>}
         </div>
         <AnimatePresence>
         {showAlert && <Alert type={alertType} text={alertMessage}/>}

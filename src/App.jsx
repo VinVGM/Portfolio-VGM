@@ -3,6 +3,7 @@ import NavBar from "./sections/navBar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
+import Resume from "./sections/Resume";
 import Contact from "./sections/Contact"
 import Footer from "./sections/Footer"
 const App = () => {
@@ -12,6 +13,8 @@ const App = () => {
     <Hero />
     <About />
     <Projects />
+    <Resume />
+    
     <Contact />
     <Footer />
 
