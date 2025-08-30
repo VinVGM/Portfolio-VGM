@@ -17,7 +17,7 @@ const Projects = () => {
 
   const [preview, setPreview] = useState(null);
   return (
-    <section id='work' onMouseMove={handleMouseMove} className='relative c-space section-spacing'>
+    <section id='work' onMouseMove={handleMouseMove} className='relative c-space section-spacing mb-40'>
       <h2 className='text-heading pt-20 pb-20'> My projects</h2>
       <div className='flex flex-col gap-20'>
         {myProjects.map((project, idx) => (
