@@ -13,7 +13,6 @@ const App = () => {
     <Hero />
     <About />
     <Projects />
-    <Resume />
     
     <Contact />
     <Footer />
