@@ -1,5 +1,47 @@
 export const myProjects = [
   {
+    id: 0,
+    title: "Airline-Ops CRUD Portal",
+    description:
+      "A full-stack Next.js dashboard to manage data for flights, crews, aircraft, airports and flight schedules of airlines.",
+    subDescription: [
+      "Implemented end-to-end CRUD with a dashboard UI, server-side pagination and search for scalability.",
+      "Optimized PostgreSQL queries (via Supabase) for fast data retrieval and manipulation across large datasets.",
+      "Secured user access with Supabase Auth and middleware-protected routes for authenticated sessions.",
+      "Technologies Used: Next.js, React, TypeScript, Tailwind CSS, Supabase",
+    ],
+    href: "https://github.com/VinVGM/Airline-Crew-and-Flight-Logistics-Database-System", // Update with live link if available
+    logo: "",
+    image: "/images/airline.png", // Update with actual screenshot
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/images/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/images/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/images/assets/logos/typescript.svg",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/images/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "Supabase",
+        path: "/images/assets/logos/supabase.svg",
+      },
+    ],
+  },
+  {
     id: 1,
     title: "Quiz Master",
     description:
@@ -85,49 +127,48 @@ export const myProjects = [
     ],
   },
   {
-  id: 2,
-  title: "Expense Tracker",
-  description:
-    "A full-stack web application for managing and tracking personal expenses with secure authentication and real-time updates.",
-  subDescription: [
-    "Enables users to add, edit, and delete expenses, categorizing them for better financial organization and insights.",
-    "Features user authentication and authorization, ensuring that each user's data is private and securely stored.",
-    "Offers a responsive ReactJS interface with instant updates and visual feedback as expenses are managed.",
-    "Integrates with MongoDB for persistent data storage and provides RESTful APIs via an Express.js backend.",
-    "Technologies Used: ReactJS, Node.js, Express.js, MongoDB, JWT Authentication",
-  ],
-  href: "https://github.com/VinVGM/Expenses-Tracker", // Add live link if available
-  logo: "",
-  image: "/images/Expenses.png", // Update with actual image path
-  tags: [
-    {
-      id: 1,
-      name: "React",
-      path: "/images/assets/logos/react.svg",
-    },
-    {
-      id: 2,
-      name: "Node.js",
-      path: "/images/assets/logos/nodejs.svg",
-    },
-    {
-      id: 3,
-      name: "Express.js",
-      path: "/images/assets/logos/Express.svg",
-    },
-    {
-      id: 4,
-      name: "MongoDB",
-      path: "/images/assets/logos/MongoDB.svg",
-    },
-    {
-      id: 5,
-      name: "JWT",
-      path: "/images/assets/logos/jwt.svg",
-    },
-  ],
-},
-
+    id: 3,
+    title: "Expense Tracker",
+    description:
+      "A full-stack web application for managing and tracking personal expenses with secure authentication and real-time updates.",
+    subDescription: [
+      "Enables users to add, edit, and delete expenses, categorizing them for better financial organization and insights.",
+      "Features user authentication and authorization, ensuring that each user's data is private and securely stored.",
+      "Offers a responsive ReactJS interface with instant updates and visual feedback as expenses are managed.",
+      "Integrates with MongoDB for persistent data storage and provides RESTful APIs via an Express.js backend.",
+      "Technologies Used: ReactJS, Node.js, Express.js, MongoDB, JWT Authentication",
+    ],
+    href: "https://github.com/VinVGM/Expenses-Tracker", // Add live link if available
+    logo: "",
+    image: "/images/Expenses.png", // Update with actual image path
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/images/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/images/assets/logos/nodejs.svg",
+      },
+      {
+        id: 3,
+        name: "Express.js",
+        path: "/images/assets/logos/Express.svg",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/images/assets/logos/MongoDB.svg",
+      },
+      {
+        id: 5,
+        name: "JWT",
+        path: "/images/assets/logos/jwt.svg",
+      },
+    ],
+  },
   {
     id: 4,
     title: "Personal Portfolio Website",
