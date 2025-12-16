@@ -93,11 +93,11 @@ export const myProjects = [
     id: 2,
     title: "Snake Game on 8051 and Arduino",
     description:
-      "Implemented the classic Snake Game using an 8051 microcontroller and later migrated it to Arduino after hardware failure.",
+      "Adapted the classic Snake Game from existing 8051 code and extended it to work on Arduino.",
     subDescription: [
         "Used an 8x8 LED matrix to render the snake and a 16x2 LCD to display the score.",
-        "Implemented basic movement logic, collision detection, and scoring using embedded C.",
         "Fried the 8051 board during debugging and ported the entire game logic to Arduino successfully.",
+        "Implemented basic movement logic, collision detection, and scoring using embedded C.",
         "Improved game control responsiveness and debugging capabilities using Arduino libraries.",
         "<a href='https://www.youtube.com/watch?v=MIV8ZxHaUl8&t=402s' target='_blank' rel='noopener noreferrer' class='text-blue-500 underline'>Watch Demo Video</a>",
       ],
