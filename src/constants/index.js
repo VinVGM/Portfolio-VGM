@@ -1,6 +1,65 @@
 export const myProjects = [
   {
     id: 0,
+    title: "Cyber-GM Dashboard",
+    description:
+      "A high-performance Next.js cybersecurity ops dashboard for vulnerability management.",
+    subDescription: [
+      "Built an end-to-end vulnerability management dashboard with CRUD workflows, priority filters, and search.",
+      "Designed a scalable backend architecture using Services/Repositories with Zod validation for safe data handling.",
+      "Implemented JWT authentication and Token Bucket rate limiting to mitigate abuse and DDoS attempts.",
+      "Added a team intelligence feed with optimistic UI updates and automated email notifications using Resend.",
+      "Technologies Used: Next.js 15, React, TypeScript, Tailwind CSS, PostgreSQL (Supabase), JWT, Resend API, Framer Motion.",
+    ],
+    href: "https://github.com/VinVGM/Cyber-GM",
+    logo: "",
+    image: "/images/cyber-gm.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/images/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/images/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/images/assets/logos/typescript.svg",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/images/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "Supabase",
+        path: "/images/assets/logos/supabase.svg",
+      },
+      {
+        id: 6,
+        name: "JWT",
+        path: "/images/assets/logos/jwt.svg",
+      },
+      {
+        id: 7,
+        name: "Resend",
+        path: "/images/assets/logos/resend.svg", // add this logo file if you don't have it
+      },
+      {
+        id: 8,
+        name: "Framer Motion",
+        path: "/images/assets/logos/framer.svg", // add this logo file if you don't have it
+      },
+    ],
+  },
+
+  {
+    id: 1,
     title: "Airline-Ops CRUD Portal",
     description:
       "A full-stack Next.js dashboard to manage data for flights, crews, aircraft, airports and flight schedules of airlines.",
@@ -10,9 +69,9 @@ export const myProjects = [
       "Secured user access with Supabase Auth and middleware-protected routes for authenticated sessions.",
       "Technologies Used: Next.js, React, TypeScript, Tailwind CSS, Supabase",
     ],
-    href: "https://github.com/VinVGM/Airline-Crew-and-Flight-Logistics-Database-System", // Update with live link if available
+    href: "https://github.com/VinVGM/Airline-Crew-and-Flight-Logistics-Database-System",
     logo: "",
-    image: "/images/airline.png", // Update with actual screenshot
+    image: "/images/airline.png",
     tags: [
       {
         id: 1,
@@ -41,8 +100,9 @@ export const myProjects = [
       },
     ],
   },
+
   {
-    id: 1,
+    id: 2,
     title: "Quiz Master",
     description:
       "A full-stack web application that generates multiple choice quizzes from user uploaded PDF notes with the help of AI.",
@@ -53,9 +113,9 @@ export const myProjects = [
       "Implements live score tracking and provides immediate feedback to users on correct or incorrect answer selections, enhancing engagement and learning outcomes.",
       "Technologies Used: ReactJS, Tailwind CSS, Vite, Python, Flask, IBM Cloud",
     ],
-    href: "https://github.com/VinVGM/Quiz-Maker-GenAI", // Add live link if available
+    href: "https://github.com/VinVGM/Quiz-Maker-GenAI",
     logo: "",
-    image: "/images/quiz.png", // Add correct image path
+    image: "/images/quiz.png",
     tags: [
       {
         id: 1,
@@ -89,46 +149,43 @@ export const myProjects = [
       },
     ],
   },
+
   {
-    id: 2,
+    id: 3,
     title: "Snake Game on 8051 and Arduino",
     description:
       "Adapted the classic Snake Game from existing 8051 code and extended it to work on Arduino.",
     subDescription: [
-        "Used an 8x8 LED matrix to render the snake and a 16x2 LCD to display the score.",
-        "Fried the 8051 board during debugging and ported the entire game logic to Arduino successfully.",
-        "Implemented basic movement logic, collision detection, and scoring using embedded C.",
-        "Improved game control responsiveness and debugging capabilities using Arduino libraries.",
-        "<a href='https://www.youtube.com/watch?v=MIV8ZxHaUl8&t=402s' target='_blank' rel='noopener noreferrer' class='text-blue-500 underline'>Watch Demo Video</a>",
-      ],
-
-
+      "Used an 8x8 LED matrix to render the snake and a 16x2 LCD to display the score.",
+      "Fried the 8051 board during debugging and ported the entire game logic to Arduino successfully.",
+      "Implemented basic movement logic, collision detection, and scoring using embedded C.",
+      "Improved game control responsiveness and debugging capabilities using Arduino libraries.",
+      "<a href='https://www.youtube.com/watch?v=MIV8ZxHaUl8&t=402s' target='_blank' rel='noopener noreferrer' class='text-blue-500 underline'>Watch Demo Video</a>",
+    ],
     href: "",
     logo: "",
-    image: "/images/8051.png", // Update with actual image if available
+    image: "/images/8051.png",
     tags: [
-  {
-    id: 1,
-    name: "8051 + Keil IDE",
-    path: "/images/assets/logos/keil.svg", // This image now includes Keil IDE
+      {
+        id: 1,
+        name: "8051 + Keil IDE",
+        path: "/images/assets/logos/keil.svg",
+      },
+      {
+        id: 2,
+        name: "Arduino",
+        path: "/images/assets/logos/Arduino.svg",
+      },
+      {
+        id: 3,
+        name: "Embedded C",
+        path: "/images/assets/logos/embC.svg",
+      },
+    ],
   },
-  {
-    id: 2,
-    name: "Arduino",
-    path: "/images/assets/logos/Arduino.svg",
-  },
-  {
-    id: 3,
-    name: "Embedded C",
-    path: "/images/assets/logos/embC.svg",
-  },
-  
-],
-},
-
 
   {
-    id: 3,
+    id: 4,
     title: "College Course Recommendation System",
     description:
       "A Streamlit-based application that recommends engineering courses based on subject keywords.",
@@ -164,8 +221,9 @@ export const myProjects = [
       },
     ],
   },
+
   {
-    id: 4,
+    id: 5,
     title: "Expense Tracker",
     description:
       "A full-stack web application for managing and tracking personal expenses with secure authentication and real-time updates.",
@@ -176,9 +234,9 @@ export const myProjects = [
       "Integrates with MongoDB for persistent data storage and provides RESTful APIs via an Express.js backend.",
       "Technologies Used: ReactJS, Node.js, Express.js, MongoDB, JWT Authentication",
     ],
-    href: "https://github.com/VinVGM/Expenses-Tracker", // Add live link if available
+    href: "https://github.com/VinVGM/Expenses-Tracker",
     logo: "",
-    image: "/images/Expenses.png", // Update with actual image path
+    image: "/images/Expenses.png",
     tags: [
       {
         id: 1,
@@ -207,8 +265,9 @@ export const myProjects = [
       },
     ],
   },
+
   {
-    id: 5,
+    id: 6,
     title: "Personal Portfolio Website",
     description:
       "A sleek and responsive portfolio website built using modern frontend tools to showcase projects and skills.",
@@ -218,7 +277,7 @@ export const myProjects = [
       "Used EmailJS for enabling contact form submissions without a backend.",
       "Deployed and optimized for performance across devices and screen sizes.",
     ],
-    href: "https://github.com/VinVGM/Portfolio-VGM", // Add your live portfolio URL if available
+    href: "https://github.com/VinVGM/Portfolio-VGM",
     logo: "",
     image: "/images/portfolio.png",
     tags: [
@@ -259,8 +318,9 @@ export const myProjects = [
       },
     ],
   },
+
   {
-    id: 6,
+    id: 7,
     title: "Face Recognition Attendance System",
     description:
       "A face recognition-based attendance tracking system built with Streamlit and OpenCV.",
