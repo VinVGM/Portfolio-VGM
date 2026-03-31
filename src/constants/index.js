@@ -1,6 +1,45 @@
 export const myProjects = [
   {
     id: 0,
+    title: "PiperCode",
+    description:
+      "A high-performance serverless developer productivity platform for tracking and visualizing real-time coding activity.",
+    subDescription: [
+      "Built an end-to-end coding metrics dashboard with dynamic Chart.js visualizations for language distribution, project-specific contribution analysis, and streak tracking.",
+      "Designed a scalable serverless architecture on AWS utilizing Lambda, API Gateway, and Amazon DynamoDB for event-driven, zero-maintenance data processing.",
+      "Implemented secure JWT-based authentication with AWS Cognito and OAuth 2.0 PKCE flow to ensure robust user data isolation and session management.",
+      "Developed a high-speed global leaderboard system with optimized DynamoDB scanning and in-memory ranking logic to drive competitive user engagement.",
+      "Technologies Used: React 18, TypeScript, Tailwind CSS, AWS Lambda, Amazon DynamoDB, AWS Cognito, API Gateway, Chart.js, Vite, Vercel, Lucide React.",
+    ],
+    href: "https://github.com/VinVGM/PiperCode",
+    logo: "",
+    image: "/images/pipercode-aws.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/images/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        path: "/images/assets/logos/typescript.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind CSS",
+        path: "/images/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "AWS",
+        path: "/images/assets/logos/aws.svg",
+      },
+    ],
+  },
+
+  {
+    id: 1,
     title: "Go Hot-Reload Engine",
     description:
       "A high-performance Go CLI tool for automated development workflows and live-reloading.",
@@ -24,7 +63,7 @@ export const myProjects = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Cyber-GM Dashboard",
     description:
       "A high-performance Next.js cybersecurity ops dashboard for vulnerability management.",
@@ -83,7 +122,7 @@ export const myProjects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Airline-Ops CRUD Portal",
     description:
       "A full-stack Next.js dashboard to manage data for flights, crews, aircraft, airports and flight schedules of airlines.",
@@ -126,7 +165,7 @@ export const myProjects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Quiz Master",
     description:
       "A full-stack web application that generates multiple choice quizzes from user uploaded PDF notes with the help of AI.",
@@ -175,7 +214,7 @@ export const myProjects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Snake Game on 8051 and Arduino",
     description:
       "Adapted the classic Snake Game from existing 8051 code and extended it to work on Arduino.",
@@ -209,7 +248,7 @@ export const myProjects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "College Course Recommendation System",
     description:
       "A Streamlit-based application that recommends engineering courses based on subject keywords.",
@@ -247,7 +286,7 @@ export const myProjects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Expense Tracker",
     description:
       "A full-stack web application for managing and tracking personal expenses with secure authentication and real-time updates.",
@@ -291,7 +330,7 @@ export const myProjects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Personal Portfolio Website",
     description:
       "A sleek and responsive portfolio website built using modern frontend tools to showcase projects and skills.",
@@ -344,7 +383,7 @@ export const myProjects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Face Recognition Attendance System",
     description:
       "A face recognition-based attendance tracking system built with Streamlit and OpenCV.",
