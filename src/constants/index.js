@@ -1,6 +1,30 @@
 export const myProjects = [
   {
     id: 0,
+    title: "Go Hot-Reload Engine",
+    description:
+      "A high-performance Go CLI tool for automated development workflows and live-reloading.",
+    subDescription: [
+      "Built an end-to-end hot-reloading CLI with recursive filesystem watching, debounced triggers, and build cancellations.",
+      "Designed a modular architecture separating orchestration, watcher events, build runners, and process lifecycle managers.",
+      "Implemented crash-loop protection and platform-specific process-tree termination for zero-leak process handling.",
+      "Engineered an adaptive watch budget system with directory fingerprinting to scale across large project structures.",
+      "Technologies Used: Go (Golang), fsnotify, slog, Concurrent Programming (Goroutines/Channels), Syscalls, OS Signals, CLI Flags.",
+    ],
+    href: "https://github.com/VinVGM/go-hot-reload-engine",
+    logo: "",
+    image: "/images/go-engine.png",
+    tags: [
+      {
+        id: 1,
+        name: "Go",
+        path: "/images/assets/logos/go.svg",
+      }
+    ],
+  },
+
+  {
+    id: 1,
     title: "Cyber-GM Dashboard",
     description:
       "A high-performance Next.js cybersecurity ops dashboard for vulnerability management.",
@@ -59,7 +83,7 @@ export const myProjects = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Airline-Ops CRUD Portal",
     description:
       "A full-stack Next.js dashboard to manage data for flights, crews, aircraft, airports and flight schedules of airlines.",
@@ -102,7 +126,7 @@ export const myProjects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Quiz Master",
     description:
       "A full-stack web application that generates multiple choice quizzes from user uploaded PDF notes with the help of AI.",
@@ -151,7 +175,7 @@ export const myProjects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Snake Game on 8051 and Arduino",
     description:
       "Adapted the classic Snake Game from existing 8051 code and extended it to work on Arduino.",
@@ -185,7 +209,7 @@ export const myProjects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "College Course Recommendation System",
     description:
       "A Streamlit-based application that recommends engineering courses based on subject keywords.",
@@ -223,7 +247,7 @@ export const myProjects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Expense Tracker",
     description:
       "A full-stack web application for managing and tracking personal expenses with secure authentication and real-time updates.",
@@ -267,7 +291,7 @@ export const myProjects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Personal Portfolio Website",
     description:
       "A sleek and responsive portfolio website built using modern frontend tools to showcase projects and skills.",
@@ -320,7 +344,7 @@ export const myProjects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Face Recognition Attendance System",
     description:
       "A face recognition-based attendance tracking system built with Streamlit and OpenCV.",
