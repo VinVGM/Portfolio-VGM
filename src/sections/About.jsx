@@ -99,7 +99,7 @@ const About = () => {
 
               <div className='flex flex-col gap-6'>
                 {[
-                  { year: '2025', text: 'Solved over 70 problems on Leetcode' },
+                  { year: '2025', text: 'Solved over 170 problems on Leetcode' },
                   { year: '2025', text: 'Achieved 4th rank overall in my college department in the academic year 2024-2025' },
                   { year: '2024', text: 'Achieved 10th rank overall in my college department in the academic year 2023-2024' },
                   { year: '2023', text: 'Secured 2nd overall rank in school and 1st in Science Stream batch in AISSCE examination in the year 2023.' },
@@ -209,7 +209,7 @@ const About = () => {
 
             <div className='flex flex-col gap-6 md:gap-10 h-full'>
               {[
-                { year: '2025', text: 'Solved over 70 problems on Leetcode' },
+                { year: '2025', text: 'Solved over 170 problems on Leetcode' },
                 { year: '2025', text: 'Achieved 4th rank overall in my college department in the academic year 2024-2025' },
                 { year: '2024', text: 'Achieved 10th rank overall in my college department in the academic year 2023-2024' },
                 { year: '2023', text: 'Secured 2nd overall rank in school and 1st in Science Stream batch in AISSCE examination in the year 2023.' },
