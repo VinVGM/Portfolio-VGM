@@ -99,6 +99,7 @@ const About = () => {
 
               <div className='flex flex-col gap-6'>
                 {[
+                  { year: '2026', text: 'Achieved 2nd rank overall in my college department in the academic year 2025-2026'},
                   { year: '2025', text: 'Solved over 170 problems on Leetcode' },
                   { year: '2025', text: 'Achieved 4th rank overall in my college department in the academic year 2024-2025' },
                   { year: '2024', text: 'Achieved 10th rank overall in my college department in the academic year 2023-2024' },
