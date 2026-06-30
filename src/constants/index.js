@@ -1,6 +1,65 @@
 export const myProjects = [
   {
     id: 0,
+    title: "IoT Cloth Drying Time Predictor",
+    description:
+      "An ML-powered IoT system that predicts cloth drying time using ESP32 sensors, AWS IoT Core, and a Python FastAPI backend with a Next.js dashboard.",
+    subDescription: [
+      "Built IoT pipeline: ESP32 sensors, AWS IoT Core MQTT, FastAPI, and Next.js dashboard.",
+      "Compared five algorithms; Gradient Boosting achieved best MAE of 9.1 minutes.",
+      "Engineered multi-stage adaptive predictor using rate-based extrapolation and logistic curve fitting.",
+      "Implemented physics-guided data augmentation to generate synthetic training sessions.",
+      "Technologies: Python, FastAPI, scikit-learn, ESP32, AWS IoT Core, MQTT/TLS, Next.js, React, Tailwind CSS.",
+    ],
+    href: "https://github.com/VinVGM/drying-predictor-ml",
+    logo: "",
+    image: "/images/drying.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/images/assets/logos/python.svg",
+      },
+      {
+        id: 2,
+        name: "scikit-learn",
+        path: "/images/assets/logos/scikit-learn.svg",
+      },
+      {
+        id: 3,
+        name: "FastAPI",
+        path: "/images/assets/logos/FastAPI.svg",
+      },
+      {
+        id: 4,
+        name: "Next.js",
+        path: "/images/assets/logos/nextjs.svg",
+      },
+      {
+        id: 5,
+        name: "TypeScript",
+        path: "/images/assets/logos/typescript.svg",
+      },
+      {
+        id: 7,
+        name: "AWS",
+        path: "/images/assets/logos/aws.svg",
+      },
+      {
+        id: 8,
+        name: "ESP32",
+        path: "/images/assets/logos/esp32.svg",
+      },
+      {
+        id: 9,
+        name: "Pandas",
+        path: "/images/assets/logos/Pandas.svg",
+      },
+    ],
+  },
+
+  {
+    id: 1,
     title: "PiperCode",
     description:
       "A high-performance serverless developer productivity platform for tracking and visualizing real-time coding activity.",
@@ -39,7 +98,7 @@ export const myProjects = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Go Hot-Reload Engine",
     description:
       "A high-performance Go CLI tool for automated development workflows and live-reloading.",
@@ -63,7 +122,7 @@ export const myProjects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Cyber-GM Dashboard",
     description:
       "A high-performance Next.js cybersecurity ops dashboard for vulnerability management.",
@@ -122,7 +181,7 @@ export const myProjects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Airline-Ops CRUD Portal",
     description:
       "A full-stack Next.js dashboard to manage data for flights, crews, aircraft, airports and flight schedules of airlines.",
@@ -165,7 +224,7 @@ export const myProjects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Quiz Master",
     description:
       "A full-stack web application that generates multiple choice quizzes from user uploaded PDF notes with the help of AI.",
@@ -214,7 +273,7 @@ export const myProjects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Snake Game on 8051 and Arduino",
     description:
       "Adapted the classic Snake Game from existing 8051 code and extended it to work on Arduino.",
@@ -248,7 +307,7 @@ export const myProjects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "College Course Recommendation System",
     description:
       "A Streamlit-based application that recommends engineering courses based on subject keywords.",
@@ -286,7 +345,7 @@ export const myProjects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Expense Tracker",
     description:
       "A full-stack web application for managing and tracking personal expenses with secure authentication and real-time updates.",
@@ -330,7 +389,7 @@ export const myProjects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Personal Portfolio Website",
     description:
       "A sleek and responsive portfolio website built using modern frontend tools to showcase projects and skills.",
@@ -383,7 +442,7 @@ export const myProjects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Face Recognition Attendance System",
     description:
       "A face recognition-based attendance tracking system built with Streamlit and OpenCV.",
